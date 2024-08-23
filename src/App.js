@@ -1,23 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import {useEffect} from 'react';
+
+const API_URL = 'http://www.omdbapi.com?apikey=1bf6a6e1';
+
+const app = () =>{
+  useEffect(() => {
+
+  },[]);
+
+  return (
+    <h1>app</h1>
+  );
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      {/* 1bf6a6e1 */}
+      <h1>app</h1> 
     </div>
   );
 }
